@@ -13,8 +13,8 @@
 		00C70FE72626C66C0022A0E9 /* uitestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C70FBD2626C66B0022A0E9 /* uitestApp.swift */; };
 		00C70FE82626C66C0022A0E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C70FBE2626C66B0022A0E9 /* ContentView.swift */; };
 		00C70FE92626C66C0022A0E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C70FBE2626C66B0022A0E9 /* ContentView.swift */; };
-		00C70FEA2626C66C0022A0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C70FBF2626C66C0022A0E9 /* Assets.xcassets */; };
-		00C70FEB2626C66C0022A0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C70FBF2626C66C0022A0E9 /* Assets.xcassets */; };
+		00C710032626CE240022A0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C710022626CE240022A0E9 /* Assets.xcassets */; };
+		00C710042626CE240022A0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C710022626CE240022A0E9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		00C70FBD2626C66B0022A0E9 /* uitestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uitestApp.swift; sourceTree = "<group>"; };
 		00C70FBE2626C66B0022A0E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		00C70FBF2626C66C0022A0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00C70FC42626C66C0022A0E9 /* uitest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uitest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C70FC72626C66C0022A0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00C70FCC2626C66C0022A0E9 /* uitest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uitest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		00C70FDF2626C66C0022A0E9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C70FE32626C66C0022A0E9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		00C70FE52626C66C0022A0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C710022626CE240022A0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			children = (
 				00C70FBD2626C66B0022A0E9 /* uitestApp.swift */,
 				00C70FBE2626C66B0022A0E9 /* ContentView.swift */,
-				00C70FBF2626C66C0022A0E9 /* Assets.xcassets */,
+				00C710022626CE240022A0E9 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -275,7 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C70FEA2626C66C0022A0E9 /* Assets.xcassets in Resources */,
+				00C710032626CE240022A0E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C70FEB2626C66C0022A0E9 /* Assets.xcassets in Resources */,
+				00C710042626CE240022A0E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
